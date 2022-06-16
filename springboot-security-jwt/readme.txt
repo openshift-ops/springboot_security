@@ -19,4 +19,5 @@ from the Authorization header and take the JWT out and validate it using the JWT
 then we can set the jwt in the security context.
 10.Then we have to tell the spring security to look up jwt instead of using session management so we have to disable it and the
 tell spring security to use the filter provided.
+11.We have to tell spring security to use the implemented filter before the UserPasswordAutheticationFilter.
 
